@@ -1,0 +1,33 @@
+Need to deal w/ tracks on file yet not on Spotify's list
+
+Thought: Maybe only do fuzzy match after exact matches have been made
+
+Need to account for songs of different versions. eg single/radio release and original mix.
+    (Perhaps need account for diffs in multiple releases over time?)
+    eg. Ping Pong on Spotify list is radio yet have dl'd Original Mix - thus technically counts as an acquired track.
+
+Account for some artists having 'cool' spellings. eg 'Axwell /\ Ingrosso, RØMANS'
+    Also watch for artists being separated by diff delimiters (; ,)
+
+Songs like Summertime Sadness count as match despite only the local copy containing 'Radio Edit' in title. This goes
+against other understand that those suffixes mean the difference.
+
+Don't know what to do about 'European accents/letters'
+
+Aware of drastic artist name changes. og. Marina now Marina & the Diamonds.
+
+SOON TODO:
+Confirm if there're trailing whitespaces in files.
+
+Remember all feat. Artists have been moved to Title!
+
+TODO: Fix duplicate of Happy Bounce
+TODO: Enzure full artists exported from mp3tag!!! <<====
+    Perhaps replace some brackets to hypehens to match left syntax.
+        May be easier to match.
+    Gonna have to strip down tittles since even convention isn't even strictly adhered to.
+
+Arcade by Dimitri/W&W good example of same track not showing say Radio Edit.
+    Also artists seem to be in different order.
+Different artists def apparent - could just be way data exported
+Cancelling duplicates from Spotify side may be more complex some repeats not exact?
